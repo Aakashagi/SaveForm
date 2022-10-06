@@ -1,0 +1,121 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display {
+    background-color: rgb(242, 0, 255);
+    border-radius: 20px;
+    width: 900px;
+    height: 450px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.first {
+       margin-left: 50px;
+}
+.date {
+    margin-left: 5px;
+    width: 175px;
+}
+.mail {
+    margin-left: 100px;
+}
+.last {
+    margin-left: 10px;
+}
+.place {
+    margin-left: 55px;
+}
+.clg {
+    margin-left: 30px;
+}
+.btn {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+}
+
+ input {
+     padding: 10px;
+     margin: 40px;
+     position: relative;  
+ }
+ 
+ .title {
+     text-align: center;
+     font-size: 30px;
+ }
+ .red {
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.red:hover {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.red:hover {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.red:active {
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.green {
+    padding: 10px;
+    background-color:rgb(128, 255, 0);
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+ .green:hover{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.green:active {
+    padding: 15px;
+    background-color:rgb(128, 255, 0);
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+}
+ p {
+     background-color: aqua;
+     padding: 5px;
+     width: 500px;
+     height: 30px;
+     border-radius: 10px;
+   
+     
+ }
+ 

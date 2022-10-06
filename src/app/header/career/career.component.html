@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<br><br><div class="title">{{title}}</div><br><br>
+<body>
+<div class="display">
+    <div class="flex">
+    <div class="one">
+    <label for="first">FIRST NAME:</label>
+        <input type="text" class="first" placeholder="FirstName" [(ngModel)]="firstget">
+    <br><label for="date">Date of Birth:
+        <input type="date" class="date" placeholder="DOB"[(ngModel)]="ageget"></label>
+    <br><label for="mail">Email:
+        <input type="text" class="mail" placeholder="email"[(ngModel)]="mailget"></label>
+    <br></div>
+    <div class="two">
+  <label for="last">LAST NAME:
+    <input type="text" class="last" placeholder="LastName"[(ngModel)]="lastget"></label>
+    <br>  
+    <label for="place">PLACE:
+        <input type="text" class="place" placeholder="placename"[(ngModel)]="placeget"></label>
+        <br>
+        <label for="clg">COLLEGE:
+            <input type="text" class="clg" placeholder="College Name"[(ngModel)]="clgget"></label>
+        <br>
+        </div>
+        </div>
+    <div class="btn">
+    <button  class="green" (click)="ChangeName()">Submit</button>
+    <button  class="red" (click)="ClearName()">Reset</button>
+    </div>
+
+   
+
+</div>
+</body>
+
+<p>First Name:{{first}}</p>
+<p>Last Name:{{last}}</p>
+<p>Full Name: {{first + " " + last}}</p>
+<p>Date of Birth:{{date}}</p>
+<p>Place:{{place}}</p>
+<p>Email:{{mail}}</p>
+<p>College:{{clg}}</p>
+
+
